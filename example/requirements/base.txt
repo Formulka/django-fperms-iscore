@@ -1,0 +1,4 @@
+django-germanium==2.3.0
+coveralls
+flake8
+factory_boy>=3.0.1

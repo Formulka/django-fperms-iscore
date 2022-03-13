@@ -1,10 +1,8 @@
-from is_core.main import UIRESTModelISCore
+from is_core.main import DjangoUiRestCore
+
+from fperms_iscore.mixins import PermCoreMixin
 
 
-from fperms_iscore.mixins import PermIsCoreMixin
-
-
-class PermUIRESTModelISCore(PermIsCoreMixin, UIRESTModelISCore):
+class PermDjangoUiRestCore(PermCoreMixin, DjangoUiRestCore):
 
     abstract = True
-
